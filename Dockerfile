@@ -1,4 +1,4 @@
-ROM openjdk:18-jdk-alpine
+FROM openjdk:18-jdk-alpine
 
 ARG JAR_FILE=target/*.jar
 
