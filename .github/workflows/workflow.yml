@@ -82,8 +82,9 @@ jobs:
 
           push: true
 
-          tags: ghcr.io/davidpp22/tos:latest
- deploy:
+          tags: ghcr.io/davidpp22/tos:latest 
+
+  deploy:
 
     needs: verify-and-package
 
